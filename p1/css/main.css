@@ -1,3 +1,8 @@
-h1 {
-font-size: 90px;
-color: blue}
+body {background-color: black;
+padding: 2px; font-size: 25px;
+color: white}
+h1 {font-size: 100px;
+color: White}
+
+h2 {font-size: 50px;
+color: white}
