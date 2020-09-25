@@ -1,6 +1,12 @@
 body {
+  background-color: #80bfff;
   font-family: 'Roboto',sans-serif;
+  margin-left: 50px
 }
 h1 {
 
+}
+p {
+    ;
+    width: 500px;
 }
