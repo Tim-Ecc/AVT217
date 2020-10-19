@@ -8,6 +8,19 @@ body {
   margin: 0;
   background-color: white;
 }
+header {
+  width: 75vw;
+  margin: 25px auto;
+}
+main {
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+.col {
+  width: 50%;
+  float: left;
+}
 h1 {
   font-size: 4rem;
   color: white;
@@ -35,4 +48,16 @@ a:active {
 }
 img{
   width: 100%;
+}
+@media screen and (max-width:750px) {
+  .col {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  header {
+    width: 90vw;
+  }
+  h1 {
+    font-size: 3rem;
+  }
 }
