@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: o;
+}
+.board1 {
+  width: 800px;
+  display: flow-root;
+  margin: 50px auto 0px;
+}
+.red, .black {
+  width: 100;
+  height: 100;
+  float: left;
+}
+.red {
+  background-color: tomato;
+}
+.black {
+  background-color: #333333;
+}
+.board2 {
+  width: 800px;
+  display: flow-root;
+  margin: 50px auto 0px;
+}
+.top {
+  background-color: red;
+  width: 800px;
+  height: 100px;
+  float: left;
+}
+.middle {
+  background-color: red;
+  width: 800px;
+  height: 20px;
+  float: left;
+  margin: 10px 0px 10px 0px;
+}
+.column1 {
+  background-color: red;
+  width: 260px;
+  height: 600px;
+  float: left;
+}
+.column2 {
+  background-color: red;
+  width: 260px;
+  height: 600px;
+  float: left;
+  margin: 0px 0px 0px 10px;
+}
+.bottom {
+  background-color: red;
+  width: 800px;
+  height: 100px;
+  float: left;
+  margin: 10px 0px 0px 0px;
+}
+.board3 {
+  width: 800px;
+  display: flow-root;
+  margin: 50px 20px 0px;
+}
+.blogHeader{
+  background-color: red;
+  width: 800px;
+  height: 120px;
+  float: left;
+}
+.blogBody{
+  background-color: red;
+  width: 600px;
+  height: 400px;
+  float: left;
+  margin-top: 100px;
+}
+.blogSide{
+  background-color: red;
+  width: 180px;
+  height: 250px;
+  float: left;
+  margin: 100px 0px 0px 20px;
+}
+.blogFooter{
+  background-color: red;
+  width: 600px;
+  height: 50px;
+  float: left;
+  margin-top: 20px;
+}
