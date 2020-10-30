@@ -1,5 +1,12 @@
+body{
+  margin:0;
+  }
 ul {
   list-style-type: none;
+}
+li {
+    float: right;
+    display: inline;
 }
 a {
   text-decoration: none;
@@ -14,4 +21,8 @@ a:visited {
 main {
   width: 75vw;
   display: flow-root;
+}
+img {
+  width: 100%;
+  height: auto;
 }
