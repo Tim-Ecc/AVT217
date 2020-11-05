@@ -1,12 +1,16 @@
 body{
   margin:0;
   }
+header{
+  float:left;
+}
 ul {
   list-style-type: none;
 }
 li {
-    float: left;
+    float: right;
     display: inline;
+    margin: 0 20px;
 }
 a {
   text-decoration: none;
@@ -14,15 +18,28 @@ a {
 a:link {
   color: black;
 }
-
 a:visited {
   color: black;
 }
 main {
-  width: 75vw;
+  width: 100vw;
   display: flow-root;
 }
 img {
   width: 100%;
   height: auto;
 }
+.col {
+  width: 30%;
+  float: left;
+  margin: 0 75px;
+  text-align: center;
+}
+.footer {
+  text-align: center;
+}
+@media screen and (max-width:750px) {
+  .col {
+    width: 75%;
+    margin-bottom: 50px;
+  }
