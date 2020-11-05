@@ -5,7 +5,7 @@ ul {
   list-style-type: none;
 }
 li {
-    float: right;
+    float: left;
     display: inline;
 }
 a {
