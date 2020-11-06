@@ -6,9 +6,10 @@ header{
 }
 ul {
   list-style-type: none;
+  float: right;
 }
 li {
-    float: right;
+
     display: inline;
     margin: 0 20px;
 }
@@ -30,9 +31,12 @@ img {
   height: auto;
 }
 .col {
-  width: 30%;
+  width: 40%;
   float: left;
-  margin: 0 75px;
+  margin: 0 25px;
+  text-align: center;
+}
+.welcome {
   text-align: center;
 }
 .footer {
