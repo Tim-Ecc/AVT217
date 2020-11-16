@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+header {
+  background-color: red;
+  display: flow-flow-root;
+  padding: 10px 50px;
+}
+main {
+  background-color: blue;
+}
+footer {
+  background-color: yellow;
+}
+.title {
+  float: left;
+}
+.nav {
+  float: right;
+  margin-top: 40px;
+}
+ul {
+  padding: 0;
+  list style type: none;
+}
+li {
+  float: left;
+}
+.hero {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.hero h1, .tagline {
+  text-align: center;
+}
+.hero h1 {
+  font-size: 6rem;
+}
+.row {
+  display: flow-root;
+  width: 80vw;
+  margin: 25px auto;
+}
+.col{
+  width: 50%;
+  float: left;
+}
