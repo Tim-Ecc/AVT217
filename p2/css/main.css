@@ -2,14 +2,24 @@ body{
   margin:0;
   }
 header{
+  background-color: white;
+  display: flow-root;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.pines {
   float:left;
+}
+nav {
+  float: right;
+  margin-top: 20px;
 }
 ul {
   list-style-type: none;
-  float: right;
 }
 li {
-
     display: inline;
     margin: 0 20px;
 }
