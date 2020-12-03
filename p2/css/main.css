@@ -44,7 +44,7 @@ img {
 .col {
   width: 40%;
   float: left;
-  margin: 0 25px;
+  margin: 0 50px;
   text-align: center;
 }
 .title {
@@ -61,3 +61,4 @@ img {
   nav {
     display:none
   }
+}
