@@ -58,3 +58,6 @@ img {
     width: 75%;
     margin-bottom: 50px;
   }
+  nav {
+    display:none
+  }
